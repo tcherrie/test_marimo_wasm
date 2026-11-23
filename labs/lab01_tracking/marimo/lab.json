@@ -11,6 +11,11 @@
       "nom": "tracking_opencv",
       "titre": "TP 2 : suivi d'un pendule avec OpenCV",
       "description": "Vidéo réelle, corrélation de motif, fréquence d'oscillation et incertitudes."
+    },
+    {
+      "nom": "chaleur_fem",
+      "titre": "TP 3 : équation de la chaleur par éléments finis",
+      "description": "scikit-fem : formulation faible, convergence P1/P2, θ-schéma et stabilité, plaque refroidie par convection."
     }
   ]
 }

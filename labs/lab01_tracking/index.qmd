@@ -14,7 +14,7 @@ Mesurer un mouvement à partir d'une vidéo, et estimer la qualité de cette mes
 
 ## Déroulé
 
-Le lab se fait dans deux notebooks à compléter, qui s'exécutent **directement dans le navigateur** : [ouvrir les notebooks](marimo/site/index.html).
+Le lab se fait dans trois notebooks à compléter, qui s'exécutent **directement dans le navigateur** : [ouvrir les notebooks](marimo/site/index.html).
 
 **TP 1 : suivi d'un point avec NumPy.**
 On génère une vidéo synthétique d'un point qui oscille, on le suit en calculant le barycentre des pixels sombres,
@@ -24,12 +24,17 @@ puis on analyse la trajectoire. On étudie la résolution sub-pixel, l'effet du 
 On suit le disque d'un pendule réel filmé à 60 images/s par corrélation de motif (*template matching*),
 on en déduit sa fréquence d'oscillation et on discute les erreurs systématiques et aléatoires.
 
+**TP 3 : équation de la chaleur par éléments finis.**
+On résout l'équation de la chaleur sur une plaque avec la bibliothèque [scikit-fem](https://scikit-fem.readthedocs.io) :
+formulation faible et assemblage, convergence en maillage (éléments P1 et P2), θ-schéma en temps et stabilité
+(pas de temps critique), puis plaque chauffée localement et refroidie par convection (condition de Robin, bilan d'énergie).
+
 Dans chaque notebook, les cellules marquées **TODO** sont à compléter ; des indices et des vérifications automatiques vous guident.
 
 ## Rendu
 
 Enregistrez votre travail avec `Ctrl/Cmd + S`, puis téléchargez chaque notebook (menu ☰ → *Export…* → *Python* → *Export notebook source*).
-Renommez les fichiers `NOM_Prenom_TP1.py` et `NOM_Prenom_TP2.py` et déposez-les à l'endroit indiqué par votre enseignant.
+Renommez les fichiers `NOM_Prenom_TP1.py`, `NOM_Prenom_TP2.py` et `NOM_Prenom_TP3.py` et déposez-les à l'endroit indiqué par votre enseignant.
 
 ## Pour aller plus loin : démonstration avec le tracker CSRT
 
